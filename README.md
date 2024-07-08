@@ -30,41 +30,53 @@ This is a web application for stock price prediction built with Python, Flask, a
 
 ### Installation
 
-1. Clone the repository: origin https://github.com/HarshLambe/stock_price_prediction.git
+1. Clone the repository:
+    ```
+    git clone https://github.com/HarshLambe/stock_price_prediction.git
+    ```
 
+2. Install dependencies:
+    ```
+    pip install requirements.txt
+    ```
 
-2. Install dependencies:pip install requirements.txt
 
 
 ### Usage
 
-1. Run the model:python stock_predict.py
+1. Run the model:
+    ```
+    python stock_predict.py
+    ```
    
-2. Run the app:streamlit run app.py
+3. Run the app:
+   ```
+   streamlit run app.py
+   ```
 
-3. Open your web browser and go to `http://localhost:8501` to view the app.
+5. Open your web browser and go to ```http://localhost:8501``` to view the app.
 
-4. Enter the ticker symbol of the stock you want to predict.
+6. Enter the ticker symbol of the stock you want to predict.
 
-5. Choose the prediction model (e.g., linear regression, LSTM).
+7. Choose the prediction model (e.g., linear regression, LSTM).
 
-6. Adjust any parameters if necessary.
+8. Adjust any parameters if necessary.
 
-7. Click on the "Predict" button to view the predicted stock prices.
+9. Click on the "Predict" button to view the predicted stock prices.
 
-8. Explore historical data and predicted prices using interactive charts.
+10. Explore historical data and predicted prices using interactive charts.
 
 ## Screenshots
-*Calculation for moving average of 50 days vs price*
+*Calculation for moving average of 50 days vs price *
 ![Screenshot 1](images/ma50.png) <!-- Replace 'images/screenshot1.png' with your screenshot -->
 
-*Calculation for moving average of 100 days vs price*
+*Calculation for moving average of 100 days vs price *
 ![Screenshot 1](images/ma100.png) 
 
-*Calculation for moving average of 50 days vs moving average of 100 days vs price*
+*Calculation for moving average of 50 days vs moving average of 100 days vs price * 
 ![Screenshot 1](images/pma50.png) 
 
-*Calculation for original value vs predicted value*
+*Calculation for original value vs predicted value *
 ![Screenshot 1](images/final.png) 
 
 ## Contributing
